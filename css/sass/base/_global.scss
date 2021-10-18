@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    border:none;
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 30px;
+}
+.artist{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .foto{
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        border-radius: 50%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+}
+.tags{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    li{
+        margin-left: 5px;
+    }
+}

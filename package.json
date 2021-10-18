@@ -2,7 +2,7 @@
   "name": "package.json",
   "version": "1.0.0",
   "description": "P6",
-  "main": "./js/main.js",
+  "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./css/sass/main.scss:./css/style.css"
   },
