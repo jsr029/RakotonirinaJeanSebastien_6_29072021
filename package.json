@@ -1,0 +1,19 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "P6",
+  "main": "./js/main.js",
+  "scripts": {
+    "sass": "sass --watch ./css/sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsr029/RakotonirinaJeanSebastien_6_29072021.git"
+  },
+  "author": "jsr059",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsr029/RakotonirinaJeanSebastien_6_29072021/issues"
+  },
+  "homepage": "https://github.com/jsr029/RakotonirinaJeanSebastien_6_29072021#readme"
+}
