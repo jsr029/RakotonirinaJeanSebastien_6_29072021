@@ -15,7 +15,7 @@ function onload() {
     });
 }
 var databaseAvailable = onload().then(function() {
-    const database = request.response;
+    const database = request.response; 
     //const database = JSON.parse(datas);
     return database;
 });
