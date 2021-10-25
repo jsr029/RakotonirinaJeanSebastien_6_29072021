@@ -1,7 +1,7 @@
 var header = document.querySelector('header');
 var section = document.querySelector('section');
 // charger l'URL du fichier JSON que nous voulons récupérer dans une variable
-var requestURL = '/json/fisheye.json';
+var requestURL = '../json/fisheye.json';
 //Afin de créer une requête, nous avons besoin d'instancier un nouvel objet
 // XMLHttpRequest à partir de son constructeur en utilisant le mot clé new
 var request = new XMLHttpRequest();
