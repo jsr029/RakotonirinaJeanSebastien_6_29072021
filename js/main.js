@@ -1,7 +1,7 @@
 var requestURL = '/json/fisheye.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
-request.responseType = 'text';
+request.responseType = 'json';
 request.send();
 /**
  * Returns a promise the resolves when window fires the load event
@@ -15,8 +15,8 @@ function onload() {
     });
 }
 var databaseAvailable = onload().then(function() {
-    const datas = request.response;
-    const database = JSON.parse(datas);
+    const database = request.response;
+    //const database = JSON.parse(datas);
     return database;
 });
 // databaseAvailable is a Promise object that resolves once datas
